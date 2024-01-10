@@ -1,0 +1,41 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #423D2F;
+    background-color: #75643cb9;
+}
+section,li{
+        padding: 2%;
+}
+
+a {
+    color: #33312D;
+    font-size: xx-large;
+}
+
+.navbar {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        padding: 8%;
+        display: inline;
+        margin: 3%;
+    }
+
+    padding: 1%;
+        border-radius: 10px;
+    border-style: groove;
+        border-color: rgb(42, 42, 42);
+    font-weight: lighter;
+}
+
+.card {
+    border-color: rgb(42, 42, 42);
+    border-radius: 10px;
+    border-style: groove;
+    padding: 2%;
+        background-color: #bda16092;
+}

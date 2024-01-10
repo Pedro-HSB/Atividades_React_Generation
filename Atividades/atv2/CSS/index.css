@@ -1,0 +1,71 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #423D2F;
+    background-color: #75643cb9;
+}
+
+a {
+    color: #33312D;
+    font-size: xx-large;
+}
+
+.navbar {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        padding: 8%;
+        display: inline;
+        margin: 3%;
+    }
+
+    padding: 1%;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(42, 42, 42);
+    font-weight: lighter;
+}
+
+.descricao {
+    padding: 1%;
+}
+.destaques {
+    padding: 1%;
+}
+.receita {
+    padding: 1%;
+}
+
+.card {
+    height: 350px;
+    width: 400px;
+    border-color: rgb(42, 42, 42);
+    border-radius: 10px;
+    border-style: groove;
+    margin: 2px;
+    padding: 2px;
+    background-color: #bda16092;
+}
+.card_img {
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0%;
+
+}
+.img_size{
+    height: 55%;
+    width: 65%;
+    padding: 1%;
+    
+}
+        .card_principal {
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+        }
