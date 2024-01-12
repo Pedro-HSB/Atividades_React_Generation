@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+
+    /* Definindo a Fonte de Texto do Projeto*/
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --black-800: #171717;
+
+    --marrom-avela: #8B572A;
+    --marrom-canela: #634027;
+
+    --amarelo-trigo: #F9C134;
+
+    --verde-alecrim: #3B653D;
+
+    --branco-antigo: #F8F8F8;
+
+    --creme-baunilha: #FFEBCD;
+
+    --laranja-tangerina: #FFA500;
+
+    --white: #F9F9F9;
+}
+
+html {
+    /* Definindo a altura padrão da tela */
+    height: 100vh;
+
+    background-color: var(--marrom-avela);
+    color: var(--branco-antigo);
+    /* Scroll suave */
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    height: 50px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    filter: opacity(0.9);
+    padding-top: 1%;
+}
+
+.navbar a {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--branco-antigo);
+}
+
+.navbar a:hover {
+    color: var(--amarelo-trigo);
+}
+
+.menu_content {
+    max-width: 1120px;
+    padding: 0 24px;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_lista {
+    list-style: none;
+    text-align: center;
+}
+
+.menu_lista li {
+    margin: 0 0 0 16px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Scroll suave */
+
+
+.introducao p {
+    padding: 5px;
+}
+
+.introducao {
+    padding: 10px;
+}
+
+.btn {
+    background-color: var(--marrom-avela);
+    color: var(--branco-antigo);
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    border-style: none;
+    font-size: large;
+}
+
+.btn button:hover {
+    background-color: var(--marrom-canela);
+}
+
+.card {
+    height: 250px;
+    width: 300px;
+    border-color: var(--laranja-tangerina);
+    border-radius: 10px;
+    background-color: var(--creme-baunilha);
+    border-style: groove;
+    margin: 2px;
+    padding: 2px;
+    color: var(--black-800);
+}
+
+.card_img {
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0%;
+    border-radius: 10px;
+
+}
+
+.img_size {
+    height: 55%;
+    width: 65%;
+    padding: 1%;
+
+}
+
+.card_principal {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    bottom: 0;
+}
+
+.content_footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_footer {
+    height: 10vh;
+    width: 40vh;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+.email label {
+    display: block;
+    padding: 3px;
+}
+
+.email input {
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.email textarea {
+    border-radius: 5px;
+}
+
+.footer_flex {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn_footer {
+    background-color: var(--marrom-avela);
+    color: var(--branco-antigo);
+    border-style: none;
+        font-size: large;
+}
+
+.btn_footer button{
+    width: 50px;
+        height: 25px;
+        border-radius: 10px;
+}
+
+.btn_footer button:hover {
+    background-color: var(--marrom-canela);
+}
